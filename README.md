@@ -1,6 +1,6 @@
-# bb-8
+# bb-8 [![DOI](https://zenodo.org/badge/710565770.svg)](https://zenodo.org/doi/10.5281/zenodo.10045857)
 
-small Python tool to extract time stamps from images using OCR
+Small Python tool to extract time stamps from images using OCR
 
 ## Installation
 
