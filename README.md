@@ -1,5 +1,6 @@
 # bb-8
-Python tool to extract time stamps from images
+
+small Python tool to extract time stamps from images using OCR
 
 ## Installation
 
@@ -12,3 +13,17 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+To extract the time stamp of a single image
+
+```bash
+source deps/bin/activate
+python3 extract.py image.jpeg
+```
+
+To extract time stamps of multiple images
+
+```bash
+source deps/bin/activate
+find . -name "*.jpg" -exec python3 extract.py "{}" ";" >> found.dat 
+```
