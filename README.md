@@ -27,3 +27,9 @@ To extract time stamps of multiple images
 source deps/bin/activate
 find . -name "*.jpg" -exec python3 extract.py "{}" ";" >> found.dat 
 ```
+
+## Reference
+
+Please cite the work as follow
+
+Diehl, P. (2023). bb-8: Python tool to extract time stamps from images (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.10045858
