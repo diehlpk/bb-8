@@ -1,12 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: 'bb-8: Python tool to extract timestamps from images'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-- family-names: Diehl
-  given-names: Patrick
-  affiliation: Center of Computation and Technology, LSU
-title:'bb-8: Python tool to extract timestamps from images'
-doi: 10.5281/zenodo.10045857
-version: v0.1.0
-date-released: 2023-10-27
-repository-code: https://github.com/diehlpk/bb-8/
-license: GPL-3
+  - given-names: Patrick
+    family-names: Diehl
+    affiliation: LSU
+    orcid: 'https://orcid.org/0000-0003-3922-8419'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10045857
+repository-code: 'https://github.com/diehlpk/bb-8'
+license: GPL-3.0
